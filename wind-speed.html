@@ -5,23 +5,21 @@
     <title>Latitude</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   
-
-  </head>
+</head>
 <body>
 
       <nav class="navbar navbar-expand-lg navbar-light bg-white">
-          <a class="navbar-brand text-uppercase" href="">Latitude</a>
+          <a class="navbar-brand text-uppercase" href="index.html">Latitude</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav ml-auto">
-                  <li class="nav-item dropdown active">
+                  <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Plots
                       </a>
@@ -39,7 +37,7 @@
                   <a class="nav-link" href="data.html">Data</a>
                 </li>
               </ul>
-          </div>
+            </div>
         </nav>
 <section class="container-fluid px-5 py-5">
 <div class="row">
@@ -47,15 +45,12 @@
     <div class="card mb-3">
         <div class="card-header bg-transparent">
 
-            <h5 class="card-title">Summary: Latitude vs. Max temperature</h5>
+            <h5 class="card-title">Wind Speed</h5>
         </div>
         <div class="card-body text-justify pt-5 px-5">
-            <img class="card-img p-3 float-left w-50 mr-4" src="visualizations/max-temperature.png" alt="Lat vs. Max Temp">
-            <p class="card-text">
-                In this project I created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To create this representative model of weather across world cities, I utilized tools such as Pandas, Jupyter Notebooks,
-                and the OpenWeatherMap API.</p>
-            <p class="card-text"> I then built a series of scatter plots using Matplotlib to showcase the relationship between the latitude and factors such as temperature, humidity, cloudiness, and wind speed. This site provides the source data used for this project
-                along with the 4 plots that I created. </p>
+            <img class="card-img pb-4 w-75" src="visualizations/wind-speed.png" alt="Lat vs. Max Temp">
+            <p class="card-text px-4">
+                There is no strong relationship between latitude and wind speed. </p>
 
         </div>
 
@@ -87,7 +82,7 @@
 
 </section>
 <footer class="footer">
-    &copy; Copyright Deepmala Agarwal 2019
+
 </footer>
     
 </body>
